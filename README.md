@@ -21,6 +21,12 @@ Repo created for EPI-Interactive 2020 R-Shiny Masterclass
 
 ![version 1 3.0](https://github.com/cmrn-rhi/r-shiny-masterclass/blob/master/session-03-challenge/version1-3.0-preview.png?raw=true)
 
-### Attempt 2 (Incomplete)
+### Attempt 2
 
-![version 2 3.0](https://github.com/cmrn-rhi/r-shiny-masterclass/blob/master/session-03-challenge/version2-3.0-preview.png?raw=true)
+![version 2 3.0](https://github.com/cmrn-rhi/r-shiny-masterclass/blob/master/session-03-challenge/version2-3.1-preview.png?raw=true)
+
+## Challenge 04
+
+**https://rhiannon-cameron.shinyapps.io/DataViewer/**
+
+## Challenge 05 (In-Progress)
