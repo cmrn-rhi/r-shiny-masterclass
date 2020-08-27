@@ -3,7 +3,8 @@
 # Note: don't do filtering based on reactive values (inputs etc) here, do that in server
 # example: gapminder <- read.csv("data/gapminder.csv", header = TRUE)
 
-library(janitor)
+
+
 library(tidyr)
 
 # Set working directory..
@@ -22,16 +23,17 @@ colOptions <- setdiff(names(csv_data), "columns")
 drop_na(csv_data)
 
 
-
-# Remove all rows and/or columns that are composed entirely of NA values.
-# remove_empty(rds_data)
-
-# looking at missing values
-# rds_data$year
-# is.na(rds_data$year)
-
-# counting missing values
+#-------------------------------------------------------------------------------
+  
+  # library(janitor)
+  
+  # Remove all rows and/or columns that are composed entirely of NA values.
+  # remove_empty(rds_data)
+  
+  # looking at missing values
+  # rds_data$year
+  # is.na(rds_data$year)
+  
+  # counting missing values
 # rds_data %>%
 #   summarise(count = sum(is.na(year)))
-
-

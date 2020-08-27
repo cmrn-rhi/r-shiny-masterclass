@@ -82,4 +82,17 @@ server <- function(input, output) {
                   options = list(scrollX = TRUE)
                   )
     })
+    
+    
+    
+    # Download Handler
+    output$download <- downloadHandler(
+        filename <-function() {
+            return("output_data.csv")
+        },
+        content = function(file) {
+            write.csv(csv_data, file)
+        }
+    )
+    
 }

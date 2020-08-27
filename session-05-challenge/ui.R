@@ -27,7 +27,11 @@ ui <- fluidPage(
         ),
         column(8, 
                wellPanel(
-                   DT::dataTableOutput("table_challenge")
+                   # Table Output
+                   DT::dataTableOutput("table_challenge"),
+                   
+                   # Download Link
+                   downloadLink(outputId = "download", label = "Download CSV")
                )
         )
     )
