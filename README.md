@@ -29,6 +29,6 @@ Repo created for EPI-Interactive 2020 R-Shiny Masterclass
 
 **https://rhiannon-cameron.shinyapps.io/DataViewer/**
 
-## Challenge 05 (In-Progress)
+## Challenge 05
 
 ![version 5.0](https://github.com/cmrn-rhi/r-shiny-masterclass/blob/master/session-05-challenge/version-5.0-preview.png?raw=true)
